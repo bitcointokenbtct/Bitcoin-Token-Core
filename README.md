@@ -8,6 +8,8 @@ Bitcoin Token is an open source crypto-currency focused on fast transactions wit
 - Fast transactions featuring guaranteed zero confirmation transactions, called _SwiftX_.
 - Masternode technology integrated and ready for activation with 10,000 BTCT collateral.
 
+The latest wallet versions can be found here: <a href="https://github.com/bitcointokenbtct/Bitcoin-Token-Core/releases">Bitcoin Token Core Releases</a>.
+
 ### Coin Specs
 <table>
 <tr><td>Algo</td><td>Proof of Stake</td></tr>
