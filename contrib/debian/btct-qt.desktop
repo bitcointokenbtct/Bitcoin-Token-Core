@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BTCT
+Comment=BTCT P2P Cryptocurrency
+Comment[fr]=BTCT, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BTCT, eşten eşe kriptografik sanal para birimi
+Exec=btct-qt %u
+Terminal=false
+Type=Application
+Icon=btct128
+MimeType=x-scheme-handler/btct;
+Categories=Office;Finance;
