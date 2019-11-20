@@ -30,7 +30,7 @@ The latest wallet versions can be found here: <a href="https://github.com/bitcoi
 ### PoS Rewards Breakdown
 
 <table>
-<th>Year</th><th>Block Height</th><th>Total Reward</th><th>PoS Reward</th><th>Masternode Reward</th>
+<th>Year</th><th>Block Height</th><th>Total Reward</th><th>Masternode Reward</th><th>PoS Reward</th>
 <tr><td>1</td><td>3-525600</td><td>14 BTCT</td><td>8 BTCT</td><td>6 BTCT</td></tr>
 <tr><td>2</td><td>525601-1051200</td><td>10 BTCT</td><td>6 BTCT</td><td>4 BTCT</td></tr>
 <tr><td>3</td><td>1051201-1576800</td><td>6 BTCT</td><td>4 BTCT</td><td>2 BTCT</td></tr>
