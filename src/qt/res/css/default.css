@@ -89,7 +89,7 @@ QMessageBox {
 }
 
 QProgressBar {
-	color: #aaa;
+	color: #355728;
 	border:0px solid grey;
 	border-radius:5px;
 	background-color:transparent;
@@ -98,13 +98,13 @@ QProgressBar {
 }
 
 QProgressBar::chunk {
-	background-color: #34373d;
+	background-color: #d1eddb;
 	width: 20px;
 }
 
 QLabel#progressBarLabel {
 	background-color:transparent;
-	color: #363941;
+	color: #355728;
 	padding-left: 5px;
 	padding-right: 5px;
 }
@@ -902,6 +902,7 @@ QWidget .QFrame#frame_Content { /* Actual Content */
 
 QWidget .QFrame#frame_Balances { /* Upper left side */
 	min-width: 340px;
+	background: url(':/icons/balances-bitcoin') no-repeat fixed left bottom;
 	background-color: #fff;
 	border-radius: 3px;
 }
