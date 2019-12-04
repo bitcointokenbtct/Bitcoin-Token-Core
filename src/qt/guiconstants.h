@@ -20,7 +20,7 @@ static const int STATUSBAR_ICONSIZE = 16;
 static const bool DEFAULT_SPLASHSCREEN = true;
 
 /* Invalid field background style */
-#define STYLE_INVALID "background:#FF8080"
+#define STYLE_INVALID "background:#ffd3cd"
 
 /* Transaction list -- unconfirmed transaction */
 #define COLOR_UNCONFIRMED QColor(91, 76, 134)
@@ -39,7 +39,7 @@ static const bool DEFAULT_SPLASHSCREEN = true;
 /* Transaction list -- TX status decoration - orphan (Light Gray #D3D3D3) */
 #define COLOR_ORPHAN QColor(211, 211, 211)
 /* Transaction list -- TX status decoration - stake (BlueViolet #8A2BE2) */
-#define COLOR_STAKE QColor(138,43,226)
+#define COLOR_STAKE QColor(45,48,56)
 /* Tooltips longer than this (in characters) are converted into rich text,
    so that they can be word-wrapped.
  */
@@ -55,7 +55,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "BTCT"
-#define QAPP_ORG_DOMAIN "btct.org"
+#define QAPP_ORG_DOMAIN "bitcointoken.pw"
 #define QAPP_APP_NAME_DEFAULT "Bitcoin-Token-Core"
 #define QAPP_APP_NAME_TESTNET "Bitcoin-Token-Core-testnet"
 

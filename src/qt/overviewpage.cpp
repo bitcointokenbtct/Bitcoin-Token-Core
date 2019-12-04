@@ -196,7 +196,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& unconfirmed
 
     // Only show most balances if they are non-zero for the sake of simplicity
     QSettings settings;
-    bool settingShowAllBalances = !settings.value("fHideZeroBalances").toBool();
+    bool settingShowAllBalances = true;
 
     bool showWatchOnly = nTotalWatchBalance != 0;
 
