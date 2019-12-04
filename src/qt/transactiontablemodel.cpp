@@ -551,7 +551,7 @@ QVariant TransactionTableModel::data(const QModelIndex& index, int role) const
         if (rec->type == TransactionRecord::Generated || rec->type == TransactionRecord::StakeMint ||
                 rec->type == TransactionRecord::MNReward) {
             if (rec->status.status == TransactionStatus::Conflicted || rec->status.status == TransactionStatus::NotAccepted)
-                return COLOR_ORPHAN;
+                return COLOR_STAKE;
             else
                 return COLOR_STAKE;
         }
