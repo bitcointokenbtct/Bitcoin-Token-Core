@@ -27,7 +27,7 @@
 #include <QTimer>
 
 #define DECORATION_SIZE 48
-#define ICON_OFFSET 16
+#define ICON_OFFSET 0
 #define NUM_ITEMS 9
 
 extern CWallet* pwalletMain;
