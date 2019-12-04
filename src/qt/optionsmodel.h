@@ -48,7 +48,6 @@ public:
         ZeromintEnable,      // bool
         ZeromintPercentage,  // int
         ZeromintPrefDenom,   // int
-        HideZeroBalances,    // bool
         HideOrphans,    // bool
         AnonymizeBTCTAmount, //int
         ShowMasternodesTab,  // bool
@@ -90,7 +89,6 @@ private:
     int nDisplayUnit;
     QString strThirdPartyTxUrls;
     bool fCoinControlFeatures;
-    bool fHideZeroBalances;
     bool fHideOrphans;
     /* settings that were overriden by command-line */
     QString strOverriddenByCommandLine;
