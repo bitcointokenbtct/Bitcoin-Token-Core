@@ -46,8 +46,6 @@ public:
 
 #ifdef Q_OS_MAC
         painter->setFont(QFont("Avenir", 13, QFont::Bold));
-#else
-        painter->setFont(QFont("SansSerif", 11, QFont::Bold));
 #endif
         
         QRect mainRect = option.rect;
