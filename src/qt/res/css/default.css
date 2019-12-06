@@ -843,9 +843,10 @@ QWidget .QFrame#frame_BG { /* Background */
 
 /**************************** OVERVIEW SCREEN *******************************************/
 QWidget .QFrame#frame_MainBG { /* Background */
-	background: rgb(255, 185, 1) url(':images/wallet-background') no-repeat 0 0;
+	background-image: url(':images/wallet-background');
+	background-repeat: no-repeat;
+	background-color: #ffb901;
 	min-width: 400px;
-	background-color: transparent;
 }
 
 QWidget .QFrame#frame_Space { /* Space between Header and Content */
