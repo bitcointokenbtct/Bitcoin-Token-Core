@@ -918,16 +918,12 @@ void BitcoinGUI::setNumBlocks(int count)
         if (masternodeSync.IsSynced()) {
             progressBarLabel->setVisible(false);
             progressBar->setVisible(false);
-            labelBlocksIcon->setPixmap(QIcon(":/icons/synced").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
+            labelBlocksIcon->setPixmap(QIcon(":/icons/staking_active").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
         } else {
             int nAttempt;
             int progress = 0;
 
-            labelBlocksIcon->setPixmap(QIcon(QString(
-                                                 ":/movies/spinner-%1")
-                                                 .arg(spinnerFrame, 3, 10, QChar('0')))
-                                           .pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
-            spinnerFrame = (spinnerFrame + 1) % SPINNER_FRAMES;
+            labelBlocksIcon->setPixmap(QIcon(":/icons/staking_inactive").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
 
 #ifdef ENABLE_WALLET
             if (walletFrame)
@@ -973,13 +969,11 @@ void BitcoinGUI::setNumBlocks(int count)
         progressBar->setVisible(true);
 
         tooltip = tr("Catching up...") + QString("<br>") + tooltip;
+        
         if (count != prevBlocks) {
-            labelBlocksIcon->setPixmap(QIcon(QString(
-                                                 ":/movies/spinner-%1")
-                                                 .arg(spinnerFrame, 3, 10, QChar('0')))
-                                           .pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
-            spinnerFrame = (spinnerFrame + 1) % SPINNER_FRAMES;
+            labelBlocksIcon->setPixmap(QIcon(":/icons/staking_inactive").pixmap(STATUSBAR_ICONSIZE, STATUSBAR_ICONSIZE));
         }
+
         prevBlocks = count;
 
 #ifdef ENABLE_WALLET
