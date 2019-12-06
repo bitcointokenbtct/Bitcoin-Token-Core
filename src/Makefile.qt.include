@@ -341,7 +341,7 @@ RES_IMAGES = \
   qt/res/images/leftArrow_small_dark.png \
   qt/res/images/rightArrow_small_dark.png \
   qt/res/images/qtreeview_selected.png \
-  qt/res/images/wallet-background.jpg
+  qt/res/images/wallet-background.png
 
 RES_CSS = \
   qt/res/css/default.css
