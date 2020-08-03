@@ -28,7 +28,7 @@ Required arguments are denoted inside &lt; and &gt; Optional arguments are insid
 <tr><td colspan=4 align=center>Control</td></tr>
 <tr><td>getinfo</td><td>&nbsp;</td><td>Returns an object containing various state info.</td><td>N</td></tr>
 <tr><td>help</td><td>[command]</td><td>List all commands, or get help for a specified command.</td><td>N</td></tr>
-<tr><td>stop</td><td>&nbsp;</td><td>Stop BTCT server.</td><td>N</td></tr>
+<tr><td>stop</td><td>&nbsp;</td><td>Stop BTCT server.</td><td>N</td></tr> 
 <tr><td colspan=4 align=center>Generating</td></tr>
 <tr><td>getgenerate</td><td>&nbsp;</td><td>"PoW Only" Return if the server is set to generate coins or not. The default is false. It is set with the command line argument -gen (or btct.conf setting gen) It can also be set with the setgenerate call.</td><td>N</td></tr>
 <tr><td>setgenerate</td><td>&lt;generate&gt; [genproclimit]</td><td>"PoW Only" Set 'generate' true or false to turn generation on or off. Generation is limited to 'genproclimit' processors, -1 is unlimited. See the getgenerate call for the current setting.</td><td>N</td></tr>
