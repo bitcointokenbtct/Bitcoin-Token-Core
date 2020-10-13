@@ -23,6 +23,8 @@
 #include "ui_interface.h"
 #include "util.h"
 
+#include <boost/bind.hpp>
+
 #include <stdint.h>
 
 #include <QDateTime>
