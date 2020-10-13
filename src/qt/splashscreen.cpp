@@ -27,11 +27,15 @@
 SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) : QWidget(0, f), curAlignment(0)
 {
     // Set reference point, paddings
+    int paddingTop = 150;
+    int paddingLeft = 260;
+
     float fontFactor = 1.0;
 
     // Define text to place
     QString titleText = tr("Bitcoin Token $BTCT");
     QString titleAddText = networkStyle->getTitleAddText();
+    QString versionText = QString(tr("Version %1")).arg(QString::fromStdString(FormatFullVersion()));
 
     QString font = QApplication::font().toString();
 
@@ -52,6 +56,9 @@ SplashScreen::SplashScreen(Qt::WindowFlags f, const NetworkStyle* networkStyle) 
 
     pixPaint.setFont(QFont(font, 28 * fontFactor));
     fm = pixPaint.fontMetrics();
+
+    pixPaint.setFont(QFont(font, 15 * fontFactor));
+    pixPaint.drawText(paddingLeft, paddingTop, versionText);
 
     // Draw additional text if special network
     if (!titleAddText.isEmpty()) {
