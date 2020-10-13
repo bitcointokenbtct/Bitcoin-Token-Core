@@ -20,6 +20,8 @@
 #include "util.h"
 #include "wallet.h"
 
+#include <boost/bind.hpp>
+
 #include <QColor>
 #include <QDateTime>
 #include <QDebug>

@@ -37,6 +37,8 @@
 
 #include <iostream>
 
+#include <boost/bind.hpp>
+
 #include <QAction>
 #include <QApplication>
 #include <QDateTime>
