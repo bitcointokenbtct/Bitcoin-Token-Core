@@ -32,7 +32,10 @@ The latest wallet versions can be found here: <a href="https://github.com/bitcoi
 <table>
 <th>Year</th><th>Block Height</th><th>Total Reward</th><th>Masternode Reward</th><th>PoS Reward</th>
 <tr><td>1</td><td>3-525600</td><td>14 BTCT</td><td>8 BTCT</td><td>6 BTCT</td></tr>
-<tr><td>2</td><td>525601-1051200</td><td>10 BTCT</td><td>6 BTCT</td><td>4 BTCT</td></tr>
-<tr><td>3</td><td>1051201-1576800</td><td>6 BTCT</td><td>4 BTCT</td><td>2 BTCT</td></tr>
-<tr><td>4+</td><td>1576801+</td><td>0 BTCT</td><td>0 BTCT</td><td>0 BTCT</td></tr>
+<tr><td>2</td><td>525601-1051200</td><td>7 BTCT</td><td>4 BTCT</td><td>3 BTCT</td></tr>
+<tr><td>3</td><td>1051201-1576800</td><td>3.5 BTCT</td><td>2 BTCT</td><td>1.5 BTCT</td></tr>
+<tr><td>4</td><td>1576801-2102400</td><td>1.75 BTCT</td><td>1 BTCT</td><td>0.75 BTCT</td></tr>
+<tr><td>5</td><td>2102401-3679200</td><td>0.875 BTCT</td><td>0.5 BTCT</td><td>0.375 BTCT</td></tr>
+<tr><td>6</td><td>3679201-5256000</td><td>0.4375 BTCT</td><td>0.25 BTCT</td><td>0.1875 BTCT</td></tr>
+<tr><td>7+</td><td>5256001+</td><td>0 BTCT</td><td>0 BTCT</td><td>0 BTCT</td></tr>
 </table>
