@@ -1,14 +1,16 @@
 <img src="https://github.com/bitcointokenbtct/Official-Images/blob/master/github-header1.jpg">
 
-Bitcoin Token Core Repository
+BitcoinToken Core Repository
 =====================================
 
-Bitcoin Token is an open source crypto-currency focused on fast transactions with low fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network. The goal of Bitcoin Token is to achieve a decentralized sustainable cryptocurrency with near instant transactions.
+BitcoinToken is payments coind focused on fast transactions with low fees & environmental footprint.  It utilizes a custom Proof of Stake protocol for securing its network. The goal of BitcoinToken is to achieve a decentralized sustainable cryptocurrency with near instant transaction confirmations.
 
 - Fast transactions featuring guaranteed zero confirmation transactions, called _SwiftX_.
 - Masternode technology integrated and ready for activation with 10,000 BTCT collateral.
+- Staking rewards automatically available for native wallets holding 1,000+ BTCT.
+- RaspberryPi ready.
 
-The latest wallet versions can be found here: <a href="https://github.com/bitcointokenbtct/Bitcoin-Token-Core/releases">Bitcoin Token Core Releases</a>.
+The latest wallet versions can be found here: <a href="https://github.com/bitcointokenbtct/Bitcoin-Token-Core/releases">BitcoinToken Core Releases</a>.
 
 ### Coin Specs
 <table>
